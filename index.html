@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+      body {
+        background-image: url(img-1.webp);
+      }
+
+    </style>
+  </head>
+  <body>
+  
+    <h1 class="texto-1">Veni al Gym!💪</h1>
+    
+    <form action="/action_page.php">
+      <fieldset class="texto-centrado">
+       <legend class="texto-izquierda">🙋‍♂️ Datos personales 👀</legend>
+
+       <div style="text-align:center;" class="margen"></div>
+       <label for="Nombre">Nombre:*</label><br><br>
+       <input type="text" id="Nombre" name="Nombre" class="text-c"><br><br>
+
+       <div style="text-align:center;" class="margen"></div>
+       <label for="Apellido">Apellido:*</label><br><br>
+       <input type="text" id="Apellido" name="Apellido" class="center-margen"><br><br>
+
+       <div style="text-align:center;" class="margen"></div>
+       <label for="Documento">Documento:*</label><br><br>
+       <input type="text" id="Documento" name="Documento" class="center-margen"><br><br>
+
+       <div style="text-align:center;" class="margen"></div>
+       <label for="Nacionalidad">Nacionalidad:*</label><br><br>
+       
+       <select>
+        <option value="- Seleccionar -">- Seleccionar -</option>
+        <option value="United States">United States</option>
+        <option value="Afghanistan">Argentina</option>
+        <option value="Albania">Chile</option>
+        <option value="Argentina">Venezuela</option>
+
+    </select><br><br>
+    
+    <div style="text-align:center;" class="margen">
+      <label for="Descripcion">Contanos un poco de vos...</label><br><br>
+      <textarea name="Descripcion" rows="5" cols="40" class="margen center celda-contact"></textarea><br><br>
+    </div>
+
+    <div style="text-align: center;" class="margen">
+    <label for="Sexo">Sexo:*</label><br><br>
+
+    <input type="radio" name="Genero" value="Femenino" >
+    <label for="Femenino">Femenino</label>
+    <input type="radio" name="Genero" value="Masculino" >
+    <label for="Masculino">Masculino</label>
+    <input type="radio" name="Genero" value="Otros" >
+    <label for="Otros">Otros</label>
+    </div>
+    
+      </fieldset> <br><br>
+
+      <div class="puntos"></div>
+
+     <fieldset class="texto-centrado">
+      <legend class="texto-izquierda">📱Datos de Contacto 📧</legend>
+      <div style="text-align:center;" class="margen">
+       <label for="Telefono">Telefono</label><br><br>
+       <input type="number" placeholder="Codigo de área y número" class="center celda margen"><br><br>
+      </div>
+      <div style="text-align: center;" class="margen">
+       <label for="Correo">Direccion de correo electronico</label><br><br>
+       <input type="email" required placeholder="mail@gmail.com" class="center celda margen"><br><br>
+       </div>
+     </fieldset>
+
+     <div class="puntos"></div><br><br>
+
+     <fieldset class="texto-h">
+      <legend class="texto-a">🚴🏽 Actividades 🤸🏽</legend>
+      <p>Por favor, indicar cuales Actividades te interesan.</p>
+      <p>Sede New York</p>
+      <input type="checkbox" name="actividad" value="MMA">
+      <label for="">MMA</label>
+      <input type="checkbox" name="actividad" value="Basketball">
+      <label for="">Basketball</label>
+      <input type="checkbox" name="actividad" value="Futbol">
+      <label for="">Futbol</label>
+      <input type="checkbox" name="actividad" value="Boxeo">
+      <label for="">Boxeo</label>
+
+      <p>Sede Miami</p>
+       <input type="checkbox" name="actividad" value="Basketball">
+       <label for="">Basketball</label>
+       <input type="checkbox" name="actividad" value="Fútbol">
+       <label for="">Fútbol</label>
+       <input type="checkbox" name="actividad" value="Boxeo">
+       <label for="">Boxeo</label>
+       <input type="checkbox" name="actividad" value="baseball">
+       <label for="">baseball</label>
+      </fieldset>
+
+      <div id="blanco">
+        <input type="checkbox" name="condiciones" value="condiciones" required>
+        <label for="">Acepto las condiciones*</label>
+        <input type="checkbox" name="novedades" value="novedades">
+        <label for="">Deseo recibir novedades</label>
+
+        <button type="submit">Iniciar afilacion</button>
+        <button type="reset">Restablecer</button>
+  
+     </form>
+
+
+    
+
+    
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
+
