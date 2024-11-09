@@ -15,6 +15,24 @@
     color: white;
 }
 
+.text-c {
+    width: 350px;
+    height: 20px;
+
+}
+.center-margen {
+    width: 350px;
+    height: 20px;
+}
+
+.selec-1 {
+    width: 350px;
+    height: 20px;
+}
+
+#S-2 {
+    text-align: center;
+}
 .texto-izquierda {
     text-align: left;
     background-color: cadetblue;
@@ -32,6 +50,20 @@ fieldset{
     font-family:'Roboto', sans-serif; 
 }
 
+.centrado-A {
+    width: 350px;
+    height: 20px;
+}
+#text-centrado-2{
+    text-align: center;
+}
+#text-centrado-3 {
+    text-align: center;
+}
+.centrado-B {
+    width: 350px;
+    height: 20px;
+}
 legend {
     
     color: white;
